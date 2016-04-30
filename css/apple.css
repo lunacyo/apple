@@ -407,13 +407,12 @@ a{
     width: 100%;
     height:210px;
     position: relative;
-    border: 2px solid lime;
 }
 .result{
     position: absolute;
     top:0;
     left: 0;
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-position: center;
     background-image: url(../img/supplier_responsibility_medium.jpg);
@@ -423,7 +422,7 @@ a{
     position: absolute;
     top: 0;
     left: 25%;
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-image: url(../img/iphone_6s_medium.jpg);
     background-position: center;
@@ -443,12 +442,11 @@ a{
     position: absolute;
     top: 0;
     right: 0;
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-image: url(../img/accessories_medium.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #foot{
     width: 100%;
