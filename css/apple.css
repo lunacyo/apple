@@ -432,7 +432,7 @@ a{
 .mb{
     position: absolute;
     top: 0;
-    left: 50%;
+    right: 25%;
     width: 25%;
     height: 200px;
     background-image: url(../img/macbook_large.jpg);
