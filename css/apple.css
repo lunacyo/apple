@@ -409,11 +409,11 @@ a{
     position: relative;
 }
 .imgsWrap div{
-    margin-bottom: 3px;
     float: left;
+    margin: 1px;
 }
 .result{
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-position: center;
     background-image: url(../img/supplier_responsibility_medium.jpg);
@@ -421,7 +421,7 @@ a{
     background-size:cover;
 }
 .ip6{
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-image: url(../img/iphone_6s_medium.jpg);
     background-position: center;
@@ -429,7 +429,7 @@ a{
     background-size:cover;
 }
 .mb{
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-image: url(../img/macbook_large.jpg);
     background-position: center;
@@ -437,7 +437,7 @@ a{
     background-size: cover;
 }
 .acc{
-    width: 25%;
+    width: 24.8%;
     height: 200px;
     background-image: url(../img/accessories_medium.jpg);
     background-position: center;
