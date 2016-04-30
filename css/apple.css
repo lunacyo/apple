@@ -405,14 +405,14 @@ a{
 }
 .imgsWrap{
     width: 100%;
-    height:auto;
-    margin: 0;
-}
-.imgsWrap div{
-    float: left;
-    margin-bottom: 3px;
+    height:210px;
+    position: relative;
+    border: 2px solid lime;
 }
 .result{
+    position: absolute;
+    top:0;
+    left: 0;
     width: 25%;
     height: 200px;
     background-position: center;
@@ -420,6 +420,9 @@ a{
     background-repeat: no-repeat;
 }
 .ip6{
+    position: absolute;
+    top: 0;
+    left: 25%;
     width: 25%;
     height: 200px;
     background-image: url(../img/iphone_6s_medium.jpg);
@@ -427,6 +430,9 @@ a{
     background-repeat: no-repeat;
 }
 .mb{
+    position: absolute;
+    top: 0;
+    left: 50%;
     width: 25%;
     height: 200px;
     background-image: url(../img/macbook_large.jpg);
@@ -434,6 +440,9 @@ a{
     background-repeat: no-repeat; 
 }
 .acc{
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 25%;
     height: 200px;
     background-image: url(../img/accessories_medium.jpg);
@@ -442,7 +451,6 @@ a{
     background-size: cover;
 }
 #foot{
-    clear: both;
     width: 100%;
     background-color:#F2F2F2;
     height:370px;
