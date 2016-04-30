@@ -1,0 +1,524 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+#pageHeader{
+    position: absolute;
+    width: 100%;
+    height:40px;
+    background-color:#333333;
+    color: white;
+    z-index: 20;
+}
+.menu{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+.menu li{
+    width: 8%;
+    height: 20px;
+    float: left;
+    margin-left: 4.5%;
+    text-align: center;
+    font-size: 14px;
+    margin-top:8px;
+    padding-top: 4px;
+}
+.menu .icon{
+    width: 2%;
+}
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    color:lightgray;
+}
+.appleImg{
+    background-image: url(../img/image_apple.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchImg{
+    background-image: url(../img/image_search.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.bagImg{
+    background-image: url(../img/image_bag.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchModal{
+    display:none;
+    position:absolute;
+    top: 0;
+    left:50%;
+    margin-left: -33%;
+    width: 70%;
+    height: 40px;
+    background-color: #333333;
+    box-sizing: border-box;
+}
+.searchModal ul{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.searchModal .icon{
+    width: 3%;
+    height: 20px;
+    margin-left: 3.5%;
+    font-size: 15px;
+    margin-top:8px;
+    padding-top: 3px;
+    float: left;
+}
+.searchModal .search{
+    left: 100px;
+    position: absolute;
+    width: 75%;
+    height: 40px;
+    float: left;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+.searchModal input{
+    width:90%;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #333333;
+    color: gray;
+    outline: none;
+    border:none;
+}
+.close{
+    width: 2.5%;
+    padding-top: 10px;
+    height: 30px;
+    color: white;
+    margin-left: 90%;
+}
+ .left{
+    float: left;
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(50deg);
+}
+ .right{
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(-50deg); 
+}
+.fastLink{
+    position: absolute;
+    left: 20px;
+    width: 75%;
+    height: 160px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.fastLink p:first-child{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.fastLink p{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 13px;
+    color: gray;
+}
+.fastLink p a{
+    color: gray;
+}
+.fastLink p a:hover{
+    color:#A3CFE5;
+}
+.shopBag{
+    position:absolute;
+    display: none;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 25%;
+    border: 1px solid gray;
+    z-index: 99;
+}
+.shopBag a{
+     color:#108FCF;
+}
+.shopBag a:hover{
+    text-decoration: underline;
+}
+.shopBag li{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin-left: 10px;
+}
+.shopBag img{
+    margin-bottom: -4px;
+}
+.shopBag li:first-child{
+    text-align: center;
+    width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: gray;
+}
+.shopBag li:nth-last-child(1){
+    border-bottom: none;
+}
+.slideWrap{
+    width:100%;
+    height:650px;
+    white-space:nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height:630px;
+    display: inline-block;
+}
+.ipadWrap{
+    width: 100%;
+    height:inherit;
+    margin:  0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ipadContent{
+    width: 100%;
+    margin-top:20px;
+}
+.ipadContent p{
+    margin-top: 15px;
+    font-size: 28px;
+    color:#333;
+}
+.ipadContent2{
+    width: 100%;
+    margin-top: 25px;
+}
+.ipadContent2 a{
+    font-size: 20px;
+    color: #08c;
+    margin: 10px;
+}
+.ipadContent2 a:hover{
+    color: #333;
+}
+.ipadImg{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    background-image: url(../img/ipad_pro_family_medium.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.iphoneWrap{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.iphoneSeimg{
+    width: 50%;
+    height:600px;
+    background-image: url(../img/iphone_se_large.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.iphoneSecontent{
+    position: absolute;
+    box-sizing: border-box;
+    right:20%;
+    top:30%;
+    width: 30%;
+}
+.iphoneSecontent p{
+    margin-top: 15px;
+    font-size: 28px;
+    color:#333;
+}
+.iphoneSecontent a{
+    font-size: 20px;
+    color: #08c;
+    margin: 25px;
+    display: block;
+}
+.iwatchWrap{
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.iwatchContent{
+    width: 100%;
+    margin-top: 70px;
+}
+.iwatchContent p{
+    margin-top: 15px;
+    font-size: 28px;
+    color: #333;
+}
+.iwatchContent2{
+    width:100%;
+    margin-top: 20px;
+}
+.iwatchContent2 a{
+    font-size: 20px;
+    color: #08c;
+    margin:20px;
+    padding-top: 20px;
+}
+.iwatchImg{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/apple_watch_trio_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slideLeft{
+    visibility: hidden;
+    position:absolute;
+    top:35%;
+    left:0;
+    font-size:100px;
+    color: gray;
+    cursor: pointer;
+    z-index: 10;
+}
+.slideRight{
+    visibility: hidden;
+    position:absolute;
+    top:34%;
+    right:0;
+    font-size:100px;
+    color: gray;
+    cursor: pointer;
+}
+.slideAllwrap{
+    width: 100%;
+    height: auto;
+}
+.modal{
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index:10;
+}
+.slideDot{
+    visibility: hidden;
+}
+.slick-dot{
+    position: relative;
+    top: -90px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.slick-dot li{
+    display: inline-block;
+    font-size: 13px;
+}
+.slick-dot i:hover{
+    color: gray;
+}
+.slick-dot .slick-active i:before{
+    color:white;
+    border: 1px solid #08c;
+    border-radius: 50%;
+}
+.imgsWrap{
+    width: 100%;
+    height:auto;
+}
+.imgsWrap div{
+    display: inline-block;
+}
+.result{
+    background-image: url(../img/supplier_responsibility_medium.jpg);
+    width: 25%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ip6{
+    width: 25%;
+    height: 200px;
+    background-image: url(../img/iphone_6s_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mb{
+    width: 25%;
+    height: 200px;
+    background-image: url(../img/macbook_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.acc{
+    width: 25%;
+    height: 200px;
+    background-image: url(../img/accessories_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#foot{
+    width: 100%;
+    background-color:#F2F2F2;
+    height:370px;
+}
+.footWrap{
+    width:60%;
+    height: 260px;
+    margin: 0 auto;
+}
+.footWrap ul{
+   float: left;
+    font-size: 10px;
+    margin: 31px;
+}
+.footWrap strong{
+   color:#333333; 
+}
+.footWrap li{
+    margin:10px;
+    
+}
+.footWrap a{
+    color: gray;
+}
+.footWrap a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.padding{
+    padding-top: 20px;    
+}
+.footBottomwrap{
+    clear: both;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 9px;
+}
+.footBottomwrap p{
+    margin-left: 31px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: gray;
+}
+.footBottomwrap p:first-child{
+    border-bottom: 1px solid gray;
+}
+.footBottomwrap p:first-child a{
+    color: #08c;
+}
+.footBottomwrap p:first-child a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.footBottomwrap p:nth-child(2) a{
+    margin: 10px;
+    padding-right:5px;
+    border-right: 1px solid gray;
+    color: black;
+}
+.footBottomwrap p:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+.footBottomwrap p:nth-child(2) a:nth-child(5){
+    border: none;
+}
+.footBottomwrap p:nth-child(2) a:nth-child(6){
+    padding-left:230px;
+    border: none;
+}
+.footBottomwrap img{
+    margin-bottom:-5px;
+    margin-right: 5px;
+}
+.footBottomwrap p:nth-child(3) span{
+    border-right: 1px solid gray;
+    padding-right: 3px;
+    padding-left: 2px;
+}
+.footBottomwrap p:nth-child(3) span:nth-child(6){
+    border: none;
+}
