@@ -408,32 +408,32 @@ a{
     height:auto;
 }
 .imgsWrap div{
-    display: inline-block;
-    margin: 5px;
+    float: left;
+    margin-bottom: 3px;
 }
 .result{
-    width: 24%;
+    width: 25%;
     height: 200px;
     background-position: center;
     background-image: url(../img/supplier_responsibility_medium.jpg);
     background-repeat: no-repeat;
 }
 .ip6{
-    width: 24%;
+    width: 25%;
     height: 200px;
     background-image: url(../img/iphone_6s_medium.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .mb{
-    width: 24%;
+    width: 25%;
     height: 200px;
     background-image: url(../img/macbook_large.jpg);
     background-position: center;
     background-repeat: no-repeat; 
 }
 .acc{
-    width: 24%;
+    width: 25%;
     height: 200px;
     background-image: url(../img/accessories_medium.jpg);
     background-position: center;
@@ -441,6 +441,7 @@ a{
     background-size: cover;
 }
 #foot{
+    clear: both;
     width: 100%;
     background-color:#F2F2F2;
     height:370px;
