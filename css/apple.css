@@ -406,6 +406,7 @@ a{
 .imgsWrap{
     width: 100%;
     height:auto;
+    margin: 0;
 }
 .imgsWrap div{
     float: left;
