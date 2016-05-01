@@ -2,6 +2,8 @@ var apple = document.getElementsByClassName("appleImg")[0];
 var search = document.getElementsByClassName("searchImg")[0];
 var bag = document.getElementsByClassName("bagImg")[0];
 var close = document.getElementsByClassName("close")[0];
+var apple1 = document.getElementsByClassName("appleImg")[1];
+var bag1 = document.getElementsByClassName("bagImg")[1];
 apple.onmouseover = function(){
     apple.style.cursor = "pointer";
     apple.style.opacity = "0.6";
@@ -10,6 +12,16 @@ apple.onmouseout = function(){
     apple.style.opacity = "1";
 }
 apple.onclick = function(){
+    location.href="#";
+}
+apple1.onmouseover = function(){
+    apple1.style.cursor = "pointer";
+    apple1.style.opacity = "0.6";
+}
+apple1.onmouseout = function(){
+    apple1.style.opacity = "1";
+}
+apple1.onclick = function(){
     location.href="#";
 }
 search.onmouseover = function(){
@@ -72,3 +84,44 @@ bag.onmouseover = function(){
 bag.onmouseout = function(){
     bag.style.opacity = "1";
 }
+bag1.onmouseover = function(){
+    bag1.style.cursor = "pointer";
+    bag1.style.opacity = "0.6";
+}
+bag1.onmouseout = function(){
+    bag1.style.opacity = "1";
+}
+$(document).ready(function(){
+  $(".mbNav div:first-child").click(function(){
+      if($(this).html() == "="){
+          $(this).html("&times");
+          $(".mbMenu").slideDown(1000);
+          $(".bagImg").css("display","none");
+      }else{
+          $(this).html("&#61");
+          $(".mbMenu").slideUp(1000);
+          $(".bagImg").css("display","block");
+      }
+});
+    $(".footShop").click(function(){
+        $(".subShop").slideToggle(1000);
+    });
+    $(".footStore").click(function(){
+       $(".subStore").slideToggle(1000); 
+    });
+    $(".footEdu").click(function(){
+       $(".subEdu").slideToggle(1000); 
+    });
+    $(".footBiz").click(function(){
+       $(".subBiz").slideToggle(1000); 
+    });
+    $(".footAcc").click(function(){
+       $(".subAcc").slideToggle(1000); 
+    });
+    $(".footVal").click(function(){
+       $(".subVal").slideToggle(1000); 
+    });
+    $(".footInfo").click(function(){
+       $(".subInfo").slideToggle(1000); 
+    });
+});

@@ -530,6 +530,15 @@ a{
 .footBottomwrap p:nth-child(3) span:nth-child(6){
     border: none;
 }
+.mbNav{
+    display: none;
+}
+.mbMenu{
+    display: none;
+}
+#mbFoot{
+    display: none;
+}
 @media only screen and (max-width:1441px){
     #pageHeader{
     position: absolute;
@@ -794,7 +803,16 @@ a{
 }
 .footBottomwrap p:nth-child(3) span:nth-child(6){
     border: none;
-} 
+}
+    .mbNav{
+        display: none;
+    }
+    .mbMenu{
+        display: none;
+    }
+}
+#mbFoot{
+    display: none;
 }
 @media only screen and (max-width:1068px){
     #pageHeader{
@@ -987,7 +1005,7 @@ a{
     margin: 1px;
 }
 .result{
-    width: 49.8%;
+    width: 49.5%;
     height: 200px;
     background-position: center;
     background-image: url(../img/supplier_responsibility_medium.jpg);
@@ -995,7 +1013,7 @@ a{
     background-size:cover;
 }
 .ip6{
-    width: 49.8%;
+    width: 49.5%;
     height: 200px;
     background-image: url(../img/iphone_6s_medium.jpg);
     background-position: center;
@@ -1003,7 +1021,7 @@ a{
     background-size:cover;
 }
 .mb{
-    width: 49.8%;
+    width: 49.5%;
     height: 200px;
     background-image: url(../img/macbook_medium.jpg);
     background-position: center;
@@ -1011,7 +1029,7 @@ a{
     background-size: cover;
 }
 .acc{
-    width: 49.8%;
+    width: 49.5%;
     height: 200px;
     background-image: url(../img/accessories_medium.jpg);
     background-position: center;
@@ -1102,4 +1120,424 @@ a{
 .footBottomwrap p:nth-child(3) span:nth-child(6){
     border: none;
 }
+    .mbNav{
+        display: none;
+    }
+}
+.mbMenu{
+    display: none;
+}
+@media only screen and (max-width:767px){
+    .menu{
+        display: none;
+    }
+    .mbNav{
+        display: block;
+        width: 100%;
+    }
+    .mbNav div{
+        margin-top: 5px;
+        display: inline-block;
+        height: 30px;
+    }
+    .mbNav div:first-child{
+        position: relative;
+        top:-3px;
+        width: 4%;
+        height: 30px;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        margin-left: 10px;
+       }
+    .mbNav div:first-child:hover{
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    .mbNav div:nth-child(2){
+        clear: both;
+        position: absolute;
+        left: 50%;
+        margin-left: -2%;
+        width:4%;
+    }
+    .mbNav div:nth-child(3){
+        width: 4%;
+        float: right;
+        margin-right:10px;
+    }
+    .shopBag{
+    position:absolute;
+    display: none;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 40%;
+    border: 1px solid gray;
+    z-index: 99;
+    background-color: #fff;
+}
+    .mbMenu{
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,1);
+    z-index: -1;
+    }
+    .mbMenu li{
+        border-bottom: 1px solid gray;
+        width: 80%;
+        height:40px;
+        margin: 0 auto;
+        position: relative;
+        top:80px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom:
+    }
+    .mbMenu li:nth-child(7){
+        border-bottom: 1px solid white;
+    }
+    .mbMenu a{
+        color: white;
+    }
+    .mbMenu a:hover{
+        opacity: 0.6;
+    }
+    .mbMenu input{
+        font-size: 20px;
+        outline: none;
+        background: transparent;
+        color: white;
+        border: none;
+    }
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:    #FFF;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #FFF;
+       opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    #FFF;
+       opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #FFF;
+}
+    .mbMenu div{
+        float: left;
+        width: 5%;
+        height: 30px;
+    }
+ .slideWrap{
+    width:100%;
+    height:450px;
+    white-space:nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height:430px;
+    display: inline-block;
+}
+.ipadWrap{
+    width: 100%;
+    height:inherit;
+    margin:  0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ipadContent{
+    width: 100%;
+    margin-top:20px;
+}
+.ipadContent p{
+    margin-top: 15px;
+    font-size: 20px;
+    color:#333;
+}
+.ipadContent2{
+    width: 100%;
+    margin-top: 25px;
+}
+.ipadContent2 a{
+    font-size: 20px;
+    color: #08c;
+    margin: 10px;
+}
+.ipadContent2 a:hover{
+    color: #333;
+}
+.ipadImg{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    background-image: url(../img/ipad_pro_family_medium.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.iphoneWrap{
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.iphoneSeimg{
+    width: 100%;
+    height:200px;
+    background-image: url(../img/iphone_se_large.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.iphoneSecontent{
+    position: absolute;
+    box-sizing: border-box;
+    right:35%;
+    top:40%;
+    width: 40%;
+}
+.iphoneSecontent p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:#333;
+}
+.iphoneSecontent a{
+    font-size: 20px;
+    color: #08c;
+    display: inline;
+    margin:5px;
+}
+    .iphoneSecontent a:hover{
+        color: #333;
+    }
+.iwatchWrap{
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.iwatchContent{
+    width: 100%;
+    margin-top: 70px;
+}
+.iwatchContent p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #333;
+}
+.iwatchContent2{
+    width:100%;
+    margin-top: 20px;
+}
+.iwatchContent2 a{
+    font-size: 20px;
+    color: #08c;
+    margin:5px;
+    padding-top: 20px;
+}
+    .iwatchContent2 a:hover{
+        color: #333;
+    }
+.iwatchImg{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/apple_watch_trio_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slideLeft{
+    visibility: hidden;
+    position:absolute;
+    top:20%;
+    left:0;
+    font-size:100px;
+    color: gray;
+    cursor: pointer;
+    z-index: 10;
+}
+.slideRight{
+    visibility: hidden;
+    position:absolute;
+    top:20%;
+    right:0;
+    font-size:100px;
+    color: gray;
+    cursor: pointer;
+}
+.slideAllwrap{
+    width: 100%;
+    height: auto;
+}
+    
+.imgsWrap{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.imgsWrap div{
+    float: left;
+    margin: 1px;
+}
+.result{
+    width: 99.8%;
+    height: 200px;
+    background-position: center;
+    background-image: url(../img//supplier_responsibility_small.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.ip6{
+    width: 99.8%;
+    height: 200px;
+    background-image: url(../img/iphone_6s_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.mb{
+    width: 99.8%;
+    height: 200px;
+    background-image: url(../img/macbook_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acc{
+    width: 99.8%;
+    height: 200px;
+    background-image: url(../img/accessories_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#foot{
+   display: none;
+}
+    #mbFoot{
+        clear: both;
+        display: block;
+        width: 100%;
+        height:auto;
+        background-color:#F2F2F2;
+        padding-top: 40px;
+    }
+    #mbFoot strong{
+        display: block;
+        width: 90%;
+        height: 24px;
+        margin: 0 auto;
+        border-bottom: 1px solid lightgray;
+        font-size: 12px;
+        color: gray;
+        margin-top: 10px;
+    }
+    #mbFoot strong:hover{
+        cursor: pointer;
+        color: black;
+    }
+    #mbFoot ul{
+        display: none;
+        width: 85%;
+        margin: 0 auto;
+    }
+    #mbFoot li{
+        margin-top: 10px;
+    }
+    #mbFoot li a{
+        color: gray;
+        font-size: 11px;
+    }
+    #mbFoot li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    #mbFoot .footMenu li{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+        margin-top: 12px;
+        color: gray;
+    }
+    .footMenu li>ul{
+        display: none;
+        overflow: visible;
+    }
+    .footMenu a{
+        color: gray;
+    }
+    .footMenu a:hover{
+        text-decoration: underline;
+    }
+    #mbFoot li:hover{
+        cursor: pointer;
+        color: black;
+    }
+    .mbfootWrap{
+        padding-top: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mbfootWrap p{
+        margin-top: 5px;
+        font-size: 10px;
+        color:gray;
+    }
+    .mbfootWrap p:first-child a{
+        color: #08c;
+    }
+    .mbfootWrap p:first-child a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    .mbfootWrap p:nth-child(2){
+        padding-top:8px;
+        padding-bottom: 8px;
+    }
+    .mbfootWrap p:nth-child(2) img{
+        margin-bottom: -4px;
+        margin-right: 4px;
+    }
+    .mbfootWrap p:nth-child(2) a{
+        color: black;
+    }
+    .mbfootWrap p:nth-child(2) a:hover{
+        text-decoration: underline;
+    }
+    .mbfootWrap p:nth-child(4) a{
+        color: black;
+        margin-right: 7px;
+        padding-right: 7px;
+        border-right: 1px solid lightgray;
+    }
+    .mbfootWrap p:nth-child(4) a:hover{
+        text-decoration: underline;
+    }
+    .mbfootWrap p:nth-child(4) a:nth-child(5){
+        border: none;
+    }
+    .mbfootWrap p:nth-child(5) span{
+        margin-right: 5px;
+        padding-right: 5px;
+        border-right: 1px solid lightgray;
+    }
+    .mbfootWrap p:nth-child(6) span{
+        margin-right: 5px;
+        padding-right: 5px;
+        border-right: 1px solid lightgray;
+    }
+    .mbfootWrap p:nth-child(6) span:nth-child(3){
+        border: none;
+    }
 }

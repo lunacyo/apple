@@ -6,7 +6,7 @@ $(document).ready(function(){
         prevArrow:$(".slideLeft"),
         nextArrow:$(".slideRight"),
         dots:true,
-        pauseOnHover:false,
+        
         customPaging: function(slider, i) {
                     return $('<span><i class="fa fa-circle"></i></span>').css("color","lightgray").css("margin","10px")
                     .css("cursor","pointer")
