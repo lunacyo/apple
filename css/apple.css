@@ -1043,7 +1043,7 @@ a{
     height:390px;
 }
 .footWrap{
-    width:100%;
+    width:90%;
     height: 260px;
     margin: 0 auto;
 }
@@ -1070,7 +1070,7 @@ a{
 }
 .footBottomwrap{
     clear: both;
-    width: 100%;
+    width: 90%;
     height: 100px;
     margin: 0 auto;
     font-size: 9px;
