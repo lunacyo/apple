@@ -728,7 +728,7 @@ a{
 .footBottomwrap p:nth-child(2) a:nth-child(6){
     position: relative;
     bottom:0;
-    right:-300px;
+    right:-200px;
 }
 .footBottomwrap img{
     margin-bottom:-5px;
