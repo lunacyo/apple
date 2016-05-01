@@ -515,7 +515,7 @@ a{
 .footBottomwrap p:nth-child(2) a:nth-child(6){
     position: relative;
     bottom:0;
-    right:-200px;
+    right:-30%;
     border: none;
 }
 .footBottomwrap img{
@@ -601,7 +601,7 @@ a{
 .footBottomwrap p:nth-child(2) a:nth-child(6){
     position: relative;
     bottom:0;
-    right:-300px;
+    right:-30%;
 }
 .footBottomwrap img{
     margin-bottom:-5px;
@@ -728,7 +728,7 @@ a{
 .footBottomwrap p:nth-child(2) a:nth-child(6){
     position: relative;
     bottom:0;
-    right:-200px;
+    right:-30%;
 }
 .footBottomwrap img{
     margin-bottom:-5px;
