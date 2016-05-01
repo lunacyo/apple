@@ -531,6 +531,186 @@ a{
     border: none;
 }
 @media only screen and (max-width:1441px){
+    #pageHeader{
+    position: absolute;
+    width: 100%;
+    height:40px;
+    background-color:#333333;
+    color: white;
+    z-index: 20;
+}
+.menu{
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+.menu li{
+    width: 8%;
+    height: 20px;
+    float: left;
+    margin-left: 4.5%;
+    text-align: center;
+    font-size: 14px;
+    margin-top:8px;
+    padding-top: 4px;
+}
+.menu .icon{
+    width: 2%;
+}
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    color:lightgray;
+}
+.appleImg{
+    background-image: url(../img/image_apple.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchImg{
+    background-image: url(../img/image_search.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.bagImg{
+    background-image: url(../img/image_bag.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchModal{
+    display:none;
+    position:absolute;
+    top: 0;
+    left:50%;
+    margin-left: -33%;
+    width: 70%;
+    height: 40px;
+    background-color: #333333;
+    box-sizing: border-box;
+}
+.searchModal ul{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.searchModal .icon{
+    width: 3%;
+    height: 20px;
+    margin-left: 3.5%;
+    font-size: 15px;
+    margin-top:8px;
+    padding-top: 3px;
+    float: left;
+}
+.searchModal .search{
+    left: 100px;
+    position: absolute;
+    width: 75%;
+    height: 40px;
+    float: left;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+.searchModal input{
+    width:90%;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #333333;
+    color: gray;
+    outline: none;
+    border:none;
+}
+.close{
+    width: 2.5%;
+    padding-top: 10px;
+    height: 30px;
+    color: white;
+    margin-left: 90%;
+}
+ .left{
+    float: left;
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(50deg);
+}
+ .right{
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(-50deg); 
+}
+.fastLink{
+    position: absolute;
+    left: 20px;
+    width: 75%;
+    height: 160px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.fastLink p:first-child{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.fastLink p{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 13px;
+    color: gray;
+}
+.fastLink p a{
+    color: gray;
+}
+.fastLink p a:hover{
+    color:#A3CFE5;
+}
+.shopBag{
+    position:absolute;
+    display: none;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 25%;
+    border: 1px solid gray;
+    z-index: 99;
+    background-color: #fff;
+}
+.shopBag a{
+     color:#108FCF;
+}
+.shopBag a:hover{
+    text-decoration: underline;
+}
+.shopBag li{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin-left: 10px;
+}
+.shopBag img{
+    margin-bottom: -4px;
+}
+.shopBag li:first-child{
+    text-align: center;
+    width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: gray;
+}
+.shopBag li:nth-last-child(1){
+    border-bottom: none;
+}
    #foot{
     clear: both;
     width: 100%;
@@ -617,6 +797,186 @@ a{
 } 
 }
 @media only screen and (max-width:1068px){
+    #pageHeader{
+    position: absolute;
+    width: 100%;
+    height:40px;
+    background-color:#333333;
+    color: white;
+    z-index: 20;
+}
+.menu{
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    box-sizing: border-box;
+    color: white;
+}
+.menu li{
+    width: 8%;
+    height: 20px;
+    float: left;
+    margin-left: 4.5%;
+    text-align: center;
+    font-size: 14px;
+    margin-top:8px;
+    padding-top: 4px;
+}
+.menu .icon{
+    width: 2%;
+}
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    color:lightgray;
+}
+.appleImg{
+    background-image: url(../img/image_apple.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchImg{
+    background-image: url(../img/image_search.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.bagImg{
+    background-image: url(../img/image_bag.svg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.searchModal{
+    display:none;
+    position:absolute;
+    top: 0;
+    left:50%;
+    margin-left: -33%;
+    width: 70%;
+    height: 40px;
+    background-color: #333333;
+    box-sizing: border-box;
+}
+.searchModal ul{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.searchModal .icon{
+    width: 3%;
+    height: 20px;
+    margin-left: 3.5%;
+    font-size: 15px;
+    margin-top:8px;
+    padding-top: 3px;
+    float: left;
+}
+.searchModal .search{
+    left: 100px;
+    position: absolute;
+    width: 75%;
+    height: 40px;
+    float: left;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+.searchModal input{
+    width:90%;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: #333333;
+    color: gray;
+    outline: none;
+    border:none;
+}
+.close{
+    width: 2.5%;
+    padding-top: 10px;
+    height: 30px;
+    color: white;
+    margin-left: 90%;
+}
+ .left{
+    float: left;
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(50deg);
+}
+ .right{
+    margin-left: 14px;
+    width: 1%;
+    height: 20px;
+    border-left: 2px solid white;
+    transform: rotate(-50deg); 
+}
+.fastLink{
+    position: absolute;
+    left: 20px;
+    width: 75%;
+    height: 160px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.fastLink p:first-child{
+    font-size: 10px;
+    margin-left: 60px;
+}
+.fastLink p{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 13px;
+    color: gray;
+}
+.fastLink p a{
+    color: gray;
+}
+.fastLink p a:hover{
+    color:#A3CFE5;
+}
+.shopBag{
+    position:absolute;
+    display: none;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 25%;
+    border: 1px solid gray;
+    z-index: 99;
+    background-color: #fff;
+}
+.shopBag a{
+     color:#108FCF;
+}
+.shopBag a:hover{
+    text-decoration: underline;
+}
+.shopBag li{
+    width: 80%;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    margin-left: 10px;
+}
+.shopBag img{
+    margin-bottom: -4px;
+}
+.shopBag li:first-child{
+    text-align: center;
+    width: 80%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: gray;
+}
+.shopBag li:nth-last-child(1){
+    border-bottom: none;
+}
 .imgsWrap{
     width: 100%;
     height:auto;
