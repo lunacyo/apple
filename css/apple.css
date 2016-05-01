@@ -404,7 +404,6 @@ a{
     border: 1px solid #08c;
     border-radius: 50%;
 }
-@media only screen and (max-width:1441px){
 .imgsWrap{
     width: 100%;
     height:auto;
@@ -528,7 +527,6 @@ a{
 }
 .footBottomwrap p:nth-child(3) span:nth-child(6){
     border: none;
-}
 }
 @media only screen and (max-width:1068px){
 .imgsWrap{
