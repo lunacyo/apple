@@ -343,7 +343,7 @@ a{
     margin:20px;
     padding-top: 20px;
 }
-.iwatchContent2 a{
+.iwatchContent2 a:hover{
     color: #333;
 }
 .iwatchImg{
